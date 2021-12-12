@@ -28,7 +28,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_instantnoodle
+PRODUCT_NAME := octavi_instantnoodle
 PRODUCT_DEVICE := instantnoodle
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
