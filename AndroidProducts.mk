@@ -21,3 +21,11 @@ COMMON_LUNCH_CHOICES := \
     aosp_instantnoodle-user \
     aosp_instantnoodle-userdebug \
     aosp_instantnoodle-eng
+
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/octavi_instantnoodle.mk
+
+COMMON_LUNCH_CHOICES := \
+    octavi_instantnoodle-user \
+    octavi_instantnoodle-userdebug \
+    octavi_instantnoodle-eng
